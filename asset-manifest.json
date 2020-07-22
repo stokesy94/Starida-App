@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Starida/static/css/main.1bc4887d.chunk.css",
-    "main.js": "/Starida/static/js/main.466f6bb9.chunk.js",
-    "main.js.map": "/Starida/static/js/main.466f6bb9.chunk.js.map",
-    "runtime-main.js": "/Starida/static/js/runtime-main.3d009371.js",
-    "runtime-main.js.map": "/Starida/static/js/runtime-main.3d009371.js.map",
-    "static/js/2.afaecfc0.chunk.js": "/Starida/static/js/2.afaecfc0.chunk.js",
-    "static/js/2.afaecfc0.chunk.js.map": "/Starida/static/js/2.afaecfc0.chunk.js.map",
-    "index.html": "/Starida/index.html",
-    "precache-manifest.48e1817ed9a399ce912144fe1eee14c4.js": "/Starida/precache-manifest.48e1817ed9a399ce912144fe1eee14c4.js",
-    "service-worker.js": "/Starida/service-worker.js",
-    "static/css/main.1bc4887d.chunk.css.map": "/Starida/static/css/main.1bc4887d.chunk.css.map",
-    "static/js/2.afaecfc0.chunk.js.LICENSE.txt": "/Starida/static/js/2.afaecfc0.chunk.js.LICENSE.txt",
-    "static/media/Starida.webp": "/Starida/static/media/Starida.c4a706a8.webp",
-    "static/media/Home.css": "/Starida/static/media/thrid.88a3b6c0.webp",
-    "static/media/cruisecard.webp": "/Starida/static/media/cruisecard.6a6a2c6b.webp",
-    "static/media/fishcard.webp": "/Starida/static/media/fishcard.5165b1bc.webp",
-    "static/media/Navbar.css": "/Starida/static/media/headers.007532b5.otf",
-    "static/media/logo.webp": "/Starida/static/media/logo.ebc02eee.webp"
+    "main.css": "/Starida-App/static/css/main.0e20f779.chunk.css",
+    "main.js": "/Starida-App/static/js/main.466f6bb9.chunk.js",
+    "main.js.map": "/Starida-App/static/js/main.466f6bb9.chunk.js.map",
+    "runtime-main.js": "/Starida-App/static/js/runtime-main.12f087d1.js",
+    "runtime-main.js.map": "/Starida-App/static/js/runtime-main.12f087d1.js.map",
+    "static/js/2.afaecfc0.chunk.js": "/Starida-App/static/js/2.afaecfc0.chunk.js",
+    "static/js/2.afaecfc0.chunk.js.map": "/Starida-App/static/js/2.afaecfc0.chunk.js.map",
+    "index.html": "/Starida-App/index.html",
+    "precache-manifest.7988b0ec5744f0d9d9ef69cb60b117d7.js": "/Starida-App/precache-manifest.7988b0ec5744f0d9d9ef69cb60b117d7.js",
+    "service-worker.js": "/Starida-App/service-worker.js",
+    "static/css/main.0e20f779.chunk.css.map": "/Starida-App/static/css/main.0e20f779.chunk.css.map",
+    "static/js/2.afaecfc0.chunk.js.LICENSE.txt": "/Starida-App/static/js/2.afaecfc0.chunk.js.LICENSE.txt",
+    "static/media/Starida.webp": "/Starida-App/static/media/Starida.c4a706a8.webp",
+    "static/media/Home.css": "/Starida-App/static/media/thrid.88a3b6c0.webp",
+    "static/media/cruisecard.webp": "/Starida-App/static/media/cruisecard.6a6a2c6b.webp",
+    "static/media/fishcard.webp": "/Starida-App/static/media/fishcard.5165b1bc.webp",
+    "static/media/Navbar.css": "/Starida-App/static/media/headers.007532b5.otf",
+    "static/media/logo.webp": "/Starida-App/static/media/logo.ebc02eee.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d009371.js",
+    "static/js/runtime-main.12f087d1.js",
     "static/js/2.afaecfc0.chunk.js",
-    "static/css/main.1bc4887d.chunk.css",
+    "static/css/main.0e20f779.chunk.css",
     "static/js/main.466f6bb9.chunk.js"
   ]
 }
