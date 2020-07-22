@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+@font-face {
+  font-family: "headers";
+  src: url(../fonts/headers.otf);
+}
+
+.navbar {
+  position: relative;
+  height: 100px;
+}
+
+.logo {
+  height: 50px;
+  padding: 1% 0 0 1%;
+}
+.hamburgers {
+  position: fixed;
+  top: 44px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  z-index: 2;
+}
+.hamburger,
+.hamburger:before,
+.hamburger:after {
+  position: absolute;
+  height: 4px;
+  width: 44px;
+  border-radius: 4px;
+  background-color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 1s;
+  z-index: 2;
+}
+.hamburger:before,
+.hamburger:after {
+  content: "";
+  left: 0;
+}
+
+.hamburger:before {
+  bottom: 12px;
+}
+.hamburger:after {
+  top: 12px;
+}
+
+.hamburgers.active .hamburger {
+  transform: rotate(-45deg);
+  background-color: red;
+}
+
+.hamburgers.active .hamburger:before {
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.hamburgers.active .hamburger:after {
+  transform: rotate(270deg);
+  top: 1px;
+  background-color: red;
+}
+
+.overlay {
+  opacity: 0;
+  overflow: hidden;
+  clip-path: ellipse(0 0 at 100% -10%);
+  -webkit-clip-path: ellipse(0 0 at 100% -10%);
+  transition: all ease 1.5s;
+  height: 100vh;
+  width: 50%;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+.overlay ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+.overli {
+  font-family: headers;
+  font-size: 2.5em;
+  color: azure;
+  height: 100px;
+  line-height: 100px;
+  width: 60%;
+  text-align: center;
+  list-style: none;
+  margin: 10px 0 10px 0;
+  border-radius: 20px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+/* .overli:hover {
+  transform: scale(1.1) translateX(2%);
+  color: skyblue;
+  transition: 0s 0s ease-in;
+  cursor: pointer;
+} */
+
+.overli.active {
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+.overli.active:hover {
+  transform: scale(1.1) translateX(2%);
+  color: skyblue;
+  transition: 0.1s 0s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .overlay.active {
+    height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: navy;
+    z-index: 1;
+    clip-path: ellipse(800px 1500px at 90% -10%);
+    -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
+    opacity: 1;
+    transition: ease 1.5s;
+  }
+}

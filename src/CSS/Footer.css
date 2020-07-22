@@ -1,0 +1,29 @@
+.footer {
+  height: 10%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact,
+.logo2,
+.links {
+  height: 100%;
+}
+
+.starida {
+  height: 100%;
+}
+
+.links ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
