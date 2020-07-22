@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Starida-App/static/css/main.0e20f779.chunk.css",
-    "main.js": "/Starida-App/static/js/main.ecd98bc6.chunk.js",
-    "main.js.map": "/Starida-App/static/js/main.ecd98bc6.chunk.js.map",
+    "main.css": "/Starida-App/static/css/main.44f82864.chunk.css",
+    "main.js": "/Starida-App/static/js/main.fad04865.chunk.js",
+    "main.js.map": "/Starida-App/static/js/main.fad04865.chunk.js.map",
     "runtime-main.js": "/Starida-App/static/js/runtime-main.12f087d1.js",
     "runtime-main.js.map": "/Starida-App/static/js/runtime-main.12f087d1.js.map",
-    "static/js/2.afaecfc0.chunk.js": "/Starida-App/static/js/2.afaecfc0.chunk.js",
-    "static/js/2.afaecfc0.chunk.js.map": "/Starida-App/static/js/2.afaecfc0.chunk.js.map",
+    "static/js/2.359b2a78.chunk.js": "/Starida-App/static/js/2.359b2a78.chunk.js",
+    "static/js/2.359b2a78.chunk.js.map": "/Starida-App/static/js/2.359b2a78.chunk.js.map",
     "index.html": "/Starida-App/index.html",
-    "precache-manifest.16d92c94d1b0c7c50218df7976fc4d24.js": "/Starida-App/precache-manifest.16d92c94d1b0c7c50218df7976fc4d24.js",
+    "precache-manifest.6fefbf21cc476cac0ef394b65a0faf15.js": "/Starida-App/precache-manifest.6fefbf21cc476cac0ef394b65a0faf15.js",
     "service-worker.js": "/Starida-App/service-worker.js",
-    "static/css/main.0e20f779.chunk.css.map": "/Starida-App/static/css/main.0e20f779.chunk.css.map",
-    "static/js/2.afaecfc0.chunk.js.LICENSE.txt": "/Starida-App/static/js/2.afaecfc0.chunk.js.LICENSE.txt",
+    "static/css/main.44f82864.chunk.css.map": "/Starida-App/static/css/main.44f82864.chunk.css.map",
+    "static/js/2.359b2a78.chunk.js.LICENSE.txt": "/Starida-App/static/js/2.359b2a78.chunk.js.LICENSE.txt",
     "static/media/Starida.webp": "/Starida-App/static/media/Starida.c4a706a8.webp",
     "static/media/Home.css": "/Starida-App/static/media/thrid.88a3b6c0.webp",
     "static/media/cruisecard.webp": "/Starida-App/static/media/cruisecard.6a6a2c6b.webp",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.12f087d1.js",
-    "static/js/2.afaecfc0.chunk.js",
-    "static/css/main.0e20f779.chunk.css",
-    "static/js/main.ecd98bc6.chunk.js"
+    "static/js/2.359b2a78.chunk.js",
+    "static/css/main.44f82864.chunk.css",
+    "static/js/main.fad04865.chunk.js"
   ]
 }

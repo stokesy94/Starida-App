@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e773339ec0721bfdaf4a373ce6e28d92",
+    "revision": "a8cfa004139ca736ae577ec3bdf1c218",
     "url": "/Starida-App/index.html"
   },
   {
-    "revision": "8dd4c2da6de1e5712cc9",
-    "url": "/Starida-App/static/css/main.0e20f779.chunk.css"
+    "revision": "ef45a2411d62e445f7e8",
+    "url": "/Starida-App/static/css/main.44f82864.chunk.css"
   },
   {
-    "revision": "4b2fa21029b21cbe6f6a",
-    "url": "/Starida-App/static/js/2.afaecfc0.chunk.js"
+    "revision": "8b96a343980468b9fdd3",
+    "url": "/Starida-App/static/js/2.359b2a78.chunk.js"
   },
   {
     "revision": "86673e3c49713919207cb5da92f1ff6c",
-    "url": "/Starida-App/static/js/2.afaecfc0.chunk.js.LICENSE.txt"
+    "url": "/Starida-App/static/js/2.359b2a78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8dd4c2da6de1e5712cc9",
-    "url": "/Starida-App/static/js/main.ecd98bc6.chunk.js"
+    "revision": "ef45a2411d62e445f7e8",
+    "url": "/Starida-App/static/js/main.fad04865.chunk.js"
   },
   {
     "revision": "ac2d6c061463073a1573",
