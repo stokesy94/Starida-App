@@ -10,9 +10,6 @@ import Gallery from "./components/Gallery";
 import PageNotFound from "./PageNotFound";
 import Footer from "./components/Footer";
 
-import Card from "./useful/Card";
-import SimpleBar from "simplebar-react";
-
 function App() {
   return (
     <div>

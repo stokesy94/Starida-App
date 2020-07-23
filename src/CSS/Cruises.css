@@ -1,0 +1,44 @@
+.Cruises {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  height: 40%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/seal2.webp") 0px -350px;
+  background-size: cover;
+}
+.title h1 {
+  font-size: 5em;
+  font-family: para;
+  color: azure;
+  margin-bottom: 3%;
+  padding: 2% 0% 2% 2%;
+  margin: 3% 5% 3% 2%;
+  background-color: transparent;
+  border-radius: 0.1em;
+  text-decoration: underline;
+}
+.title h3 {
+  margin-top: 3%;
+  font-size: 2em;
+  font-family: para;
+  color: azure;
+  margin-bottom: 3%;
+  padding: 2% 0% 2% 2%;
+  margin: 3% 5% 3% 2%;
+  background-color: transparent;
+  border-radius: 0.1em;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(32rem, 1fr));
+  justify-items: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  margin-bottom: 3%;
+}

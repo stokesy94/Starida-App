@@ -14,30 +14,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Glider, { GliderMethods } from "react-glider";
 
 const Home = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "/path/to/resource.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  // const glider = document.querySelector(".glider")
-
-  // new Glider(document.querySelector(".glider"), {
-  //   slidesToShow: 1,
-  //   draggable: true,
-  //   dots: "#dots",
-  //   arrow: {
-  //     prev: ".glider-prev",
-  //     next: ".glider-next",
-  //   },
-  // });
-
-  const gliderRef = React.useRef<GliderMethods>();
-
   return (
     <section>
       <div className="home">

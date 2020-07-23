@@ -1,0 +1,62 @@
+.Faq {
+  height: 100%;
+  width: 100%;
+  padding: 5% 0 5% 0;
+  margin-top: 3%;
+  background-color: lavender;
+}
+.Faq h1 {
+  margin: 0% 0 2% 5%;
+  font-family: para;
+  font-size: 5em;
+  color: navy;
+}
+.accordion {
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  cursor: pointer;
+  padding: 1em;
+  font-family: headers;
+  font-size: 2em;
+  margin: 0;
+  border-radius: 0.5em;
+  border: none;
+  transform: translateX(50%);
+  width: 50%;
+  text-align: left;
+  transition: 0.4s;
+  margin-top: 1px;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  overflow: hidden;
+  padding: 0em 1em;
+  max-height: 0;
+  opacity: 1;
+  font-size: 1.4em;
+  transition: 0.6s ease-in-out;
+  transform: translateX(50%);
+  width: 47.6%;
+  font-family: headers;
+  border-radius: 0.5em;
+}
+
+.panel.active {
+  padding: 1em;
+  max-height: 500px;
+  background-color: white;
+  margin: 0;
+  border-radius: 0.5em;
+  width: 47.6%;
+  font-family: headers;
+  font-size: 1.4em;
+  transform: translateX(50%);
+  opacity: 1;
+  transition: 0.6s ease-in-out;
+}

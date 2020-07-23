@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route, NavLink, Link } from "react-router-dom";
 import starida from "../assets/Starida.webp";
 import "../CSS/Navbar.css";
 import $ from "jquery";
+import Home from "../components/Home";
 
 const Navbar = () => {
   useEffect(() => {
@@ -30,12 +31,24 @@ const Navbar = () => {
             </div>
             <div className="overlay" id="overlay">
               <ul>
-                <li className="overli">Home</li>
-                <li className="overli">Cruises</li>
-                <li className="overli">Fishing Trips</li>
-                <li className="overli">Gallery</li>
-                <li className="overli">FAQ's</li>
-                <li className="overli">Contact</li>
+                <Link to={"/"}>
+                  <li className="overli">Home</li>
+                </Link>
+                <Link to={"/Cruises"}>
+                  <li className="overli">Cruises</li>
+                </Link>
+                <Link to={"/Ftrips"}>
+                  <li className="overli">Fishing Trips</li>
+                </Link>
+                <Link to={"/Gallery"}>
+                  <li className="overli">Gallery</li>
+                </Link>
+                <Link to={"/Faq"}>
+                  <li className="overli">FAQ's</li>
+                </Link>
+                <Link to={"/Contact"}>
+                  <li className="overli">Contact</li>
+                </Link>
               </ul>
             </div>
           </div>

@@ -11,7 +11,7 @@
 
 .navbar {
   position: relative;
-  height: 100px;
+  height: 30px;
 }
 
 .logo {
@@ -36,7 +36,7 @@
   border-radius: 4px;
   background-color: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: 1s;
+  transition: 0.5s;
   z-index: 2;
 }
 .hamburger:before,
@@ -73,7 +73,7 @@
   overflow: hidden;
   clip-path: ellipse(0 0 at 100% -10%);
   -webkit-clip-path: ellipse(0 0 at 100% -10%);
-  transition: all ease 1.5s;
+  transition: all ease 0.5s;
   height: 100vh;
   width: 50%;
   right: 0;
@@ -94,7 +94,7 @@
   color: azure;
   height: 100px;
   line-height: 100px;
-  width: 60%;
+  width: 100%;
   text-align: center;
   list-style: none;
   margin: 10px 0 10px 0;
@@ -121,7 +121,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
+@media screen and (min-width: 1200px) {
   .overlay.active {
     height: 100vh;
     width: 50%;
@@ -130,9 +130,9 @@
     position: fixed;
     background-color: navy;
     z-index: 1;
-    clip-path: ellipse(800px 1500px at 90% -10%);
+    clip-path: ellipse(500px 1500px at 90% -10%);
     -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
     opacity: 1;
-    transition: ease 1.5s;
+    transition: ease 0.5s;
   }
 }
