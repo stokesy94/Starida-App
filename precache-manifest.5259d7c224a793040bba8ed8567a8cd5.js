@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d7b248d4367ef0ea4bf29bb9705fbdc",
+    "revision": "3852a7f40aa23ed1de74a7e917023903",
     "url": "/Starida-App/index.html"
   },
   {
-    "revision": "c5abcb7cd0ba7829e9e0",
-    "url": "/Starida-App/static/css/main.44f82864.chunk.css"
+    "revision": "d71fdc51e829e7442c0b",
+    "url": "/Starida-App/static/css/main.80a92c44.chunk.css"
   },
   {
-    "revision": "8b96a343980468b9fdd3",
-    "url": "/Starida-App/static/js/2.359b2a78.chunk.js"
+    "revision": "a78ffecd54c4dc4be752",
+    "url": "/Starida-App/static/js/2.43358c9a.chunk.js"
   },
   {
-    "revision": "86673e3c49713919207cb5da92f1ff6c",
-    "url": "/Starida-App/static/js/2.359b2a78.chunk.js.LICENSE.txt"
+    "revision": "50d80c96581759e84ac591075d8c2e2d",
+    "url": "/Starida-App/static/js/2.43358c9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5abcb7cd0ba7829e9e0",
-    "url": "/Starida-App/static/js/main.9fc54a87.chunk.js"
+    "revision": "d71fdc51e829e7442c0b",
+    "url": "/Starida-App/static/js/main.8f7ebbaa.chunk.js"
   },
   {
     "revision": "ac2d6c061463073a1573",
@@ -36,8 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Starida-App/static/media/boat2.148cd02f.webp"
   },
   {
+    "revision": "2a0052d4773ca5c7f1f697b477243e7c",
+    "url": "/Starida-App/static/media/contact.2a0052d4.webp"
+  },
+  {
     "revision": "6a6a2c6b036421e55a0494cdb597203b",
     "url": "/Starida-App/static/media/cruisecard.6a6a2c6b.webp"
+  },
+  {
+    "revision": "e78748473b1f4e2e7cbf0f16ad40cde6",
+    "url": "/Starida-App/static/media/fish1.e7874847.webp"
+  },
+  {
+    "revision": "146b22cc8b77e062f19f3a437e9e0522",
+    "url": "/Starida-App/static/media/fish2.146b22cc.webp"
+  },
+  {
+    "revision": "3c6631f04f368de0ce62f173822f96d0",
+    "url": "/Starida-App/static/media/fish3.3c6631f0.webp"
   },
   {
     "revision": "5165b1bc5797e186e5f73bd17b46afa3",
@@ -52,6 +68,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Starida-App/static/media/logo.ebc02eee.webp"
   },
   {
+    "revision": "4482c7c790fbf9ae050d40e8250d2908",
+    "url": "/Starida-App/static/media/menai.4482c7c7.webp"
+  },
+  {
+    "revision": "5798a10648cefe2449b27705e4298ab0",
+    "url": "/Starida-App/static/media/menai2.5798a106.webp"
+  },
+  {
     "revision": "a0a9c4f42c13b4afcf14f4ce81873644",
     "url": "/Starida-App/static/media/p.a0a9c4f4.ttf"
   },
@@ -60,12 +84,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Starida-App/static/media/phoneback.ee030a26.webp"
   },
   {
+    "revision": "8ff55ffc176b13197131622c9c790b75",
+    "url": "/Starida-App/static/media/reels.8ff55ffc.webp"
+  },
+  {
     "revision": "580946e51697fbaffc5e31e1a076d493",
     "url": "/Starida-App/static/media/sea.580946e5.webp"
   },
   {
     "revision": "869d6957f79103303c50f19e64a82a9b",
     "url": "/Starida-App/static/media/seal.869d6957.webp"
+  },
+  {
+    "revision": "9aea12f1ba68113a06ea12b3688c1258",
+    "url": "/Starida-App/static/media/seal2.9aea12f1.webp"
   },
   {
     "revision": "88a3b6c0053bebe108f622d52030c488",
