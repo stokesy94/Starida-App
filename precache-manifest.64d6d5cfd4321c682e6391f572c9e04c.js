@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3852a7f40aa23ed1de74a7e917023903",
+    "revision": "653a98b712668038ed1107e01e5af857",
     "url": "/Starida-App/index.html"
   },
   {
-    "revision": "d71fdc51e829e7442c0b",
-    "url": "/Starida-App/static/css/main.80a92c44.chunk.css"
+    "revision": "7b2b24ed2f4d05937487",
+    "url": "/Starida-App/static/css/main.38da18a1.chunk.css"
   },
   {
     "revision": "a78ffecd54c4dc4be752",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Starida-App/static/js/2.43358c9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d71fdc51e829e7442c0b",
+    "revision": "7b2b24ed2f4d05937487",
     "url": "/Starida-App/static/js/main.8f7ebbaa.chunk.js"
   },
   {
