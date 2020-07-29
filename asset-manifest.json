@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Starida-App/static/css/main.38da18a1.chunk.css",
+    "main.css": "/Starida-App/static/css/main.6e92a775.chunk.css",
     "main.js": "/Starida-App/static/js/main.8f7ebbaa.chunk.js",
     "main.js.map": "/Starida-App/static/js/main.8f7ebbaa.chunk.js.map",
     "runtime-main.js": "/Starida-App/static/js/runtime-main.12f087d1.js",
@@ -8,9 +8,9 @@
     "static/js/2.43358c9a.chunk.js": "/Starida-App/static/js/2.43358c9a.chunk.js",
     "static/js/2.43358c9a.chunk.js.map": "/Starida-App/static/js/2.43358c9a.chunk.js.map",
     "index.html": "/Starida-App/index.html",
-    "precache-manifest.64d6d5cfd4321c682e6391f572c9e04c.js": "/Starida-App/precache-manifest.64d6d5cfd4321c682e6391f572c9e04c.js",
+    "precache-manifest.2a6d756918dc6d8c842d4b0e20f023dd.js": "/Starida-App/precache-manifest.2a6d756918dc6d8c842d4b0e20f023dd.js",
     "service-worker.js": "/Starida-App/service-worker.js",
-    "static/css/main.38da18a1.chunk.css.map": "/Starida-App/static/css/main.38da18a1.chunk.css.map",
+    "static/css/main.6e92a775.chunk.css.map": "/Starida-App/static/css/main.6e92a775.chunk.css.map",
     "static/js/2.43358c9a.chunk.js.LICENSE.txt": "/Starida-App/static/js/2.43358c9a.chunk.js.LICENSE.txt",
     "static/media/Starida.webp": "/Starida-App/static/media/Starida.c4a706a8.webp",
     "static/media/Gallery.css": "/Starida-App/static/media/thrid.88a3b6c0.webp",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.12f087d1.js",
     "static/js/2.43358c9a.chunk.js",
-    "static/css/main.38da18a1.chunk.css",
+    "static/css/main.6e92a775.chunk.css",
     "static/js/main.8f7ebbaa.chunk.js"
   ]
 }
