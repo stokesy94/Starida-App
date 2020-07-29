@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Starida-App/precache-manifest.2a6d756918dc6d8c842d4b0e20f023dd.js"
+  "/Starida-App/precache-manifest.615d5a8af92501cbff213fc112b0d561.js"
 );
 
 self.addEventListener('message', (event) => {
