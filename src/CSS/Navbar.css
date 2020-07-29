@@ -20,7 +20,9 @@
 }
 .hamburgers {
   position: fixed;
-  top: 44px;
+  display: flex;
+  align-items: center;
+  top: 18px;
   right: 10px;
   height: 50px;
   width: 50px;
@@ -121,7 +123,18 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 666px) {
+  .hamburgers {
+    position: fixed;
+    top: 18px;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 2;
+  }
   .overlay.active {
     height: 100vh;
     width: 50%;
@@ -130,9 +143,114 @@
     position: fixed;
     background-color: navy;
     z-index: 1;
-    clip-path: ellipse(500px 1500px at 90% -10%);
+    clip-path: ellipse(170px 900px at 90% -10%);
     -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
     opacity: 1;
     transition: ease 0.5s;
+  }
+  .overli {
+    font-size: 2em;
+    color: azure;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 10px 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+  .overlay.active {
+    height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: navy;
+    z-index: 1;
+    clip-path: ellipse(300px 1000px at 90% -10%);
+    -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
+    opacity: 1;
+    transition: ease 0.5s;
+  }
+  .overli {
+    font-size: 1.8em;
+    color: azure;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px 0 10px 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width: 991px) {
+  .overlay.active {
+    height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: navy;
+    z-index: 1;
+    clip-path: ellipse(300px 1000px at 90% -10%);
+    -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
+    opacity: 1;
+    transition: ease 0.5s;
+  }
+  .overli {
+    font-size: 2em;
+    color: azure;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 10px 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .overlay.active {
+    height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: navy;
+    z-index: 1;
+    clip-path: ellipse(300px 1500px at 90% -10%);
+    -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
+    opacity: 1;
+    transition: ease 0.5s;
+  }
+  .overli {
+    font-size: 2em;
+    color: azure;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 10px 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .overlay.active {
+    min-height: 50vh;
+    max-height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: navy;
+    z-index: 1;
+    clip-path: ellipse(300px 1500px at 90% -10%);
+    -webkit-clip-path: ellipse(800px 1500px at 90% -10%);
+    opacity: 1;
+    transition: ease 0.5s;
+  }
+  .overli {
+    font-size: 2em;
+    color: azure;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 10px 0;
+    padding-top: 10px;
   }
 }

@@ -4,12 +4,17 @@
   padding: 5% 0 5% 0;
   margin-top: 3%;
   background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .Faq h1 {
   margin: 0% 0 2% 5%;
   font-family: para;
   font-size: 5em;
   color: navy;
+  text-align: center;
 }
 .accordion {
   background-color: navy;
@@ -23,7 +28,6 @@
   margin: 0;
   border-radius: 0.5em;
   border: none;
-  transform: translateX(50%);
   width: 50%;
   text-align: left;
   transition: 0.4s;
@@ -41,22 +45,61 @@
   opacity: 1;
   font-size: 1.4em;
   transition: 0.6s ease-in-out;
-  transform: translateX(50%);
-  width: 47.6%;
+  width: 50%;
   font-family: headers;
   border-radius: 0.5em;
 }
 
 .panel.active {
   padding: 1em;
-  max-height: 500px;
+  max-height: 1200px;
   background-color: white;
   margin: 0;
   border-radius: 0.5em;
-  width: 47.6%;
+  width: 50%;
   font-family: headers;
   font-size: 1.4em;
-  transform: translateX(50%);
   opacity: 1;
   transition: 0.6s ease-in-out;
+}
+@media screen and (max-width: 666px) {
+  .accordion {
+    width: 80%;
+  }
+  .panel {
+    width: 80%;
+  }
+  .panel.active {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+  .accordion {
+    width: 80%;
+  }
+  .panel {
+    width: 80%;
+  }
+  .panel.active {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width: 991px) {
+  .accordion {
+    width: 80%;
+  }
+  .panel {
+    width: 80%;
+  }
+  .panel.active {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
 }

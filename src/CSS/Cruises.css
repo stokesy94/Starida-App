@@ -42,3 +42,112 @@
   width: 100%;
   margin-bottom: 3%;
 }
+@media screen and (max-width: 666px) {
+  .title {
+    height: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/seal2.webp") 0px 0;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 8%;
+  }
+  .title h1 {
+    font-size: 2em;
+    margin: 0% 0 0 0;
+  }
+  .title h3 {
+    font-size: 2em;
+  }
+  .cards {
+    justify-content: center;
+    margin: 10% 0 10% 0;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+  .title {
+    height: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/seal2.webp") 0px 0;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 4%;
+  }
+  .title h1 {
+    font-size: 2.2em;
+    margin: 0% 0 0 0;
+  }
+  .title h3 {
+    font-size: 1.7em;
+  }
+  .cards {
+    justify-content: center;
+    margin: 10% 0 10% 0;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width: 991px) {
+  .title {
+    height: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/seal2.webp") 0px 0;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 4%;
+  }
+  .title h1 {
+    font-size: 3em;
+    margin: 0% 0 0 0;
+  }
+  .title h3 {
+    font-size: 2em;
+  }
+  .cards {
+    justify-content: center;
+    margin: 10% 0 10% 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .title {
+    height: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/seal2.webp") 0px 0;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 4%;
+  }
+  .title h1 {
+    font-size: 4em;
+    margin: 0% 0 0 0;
+  }
+  .title h3 {
+    font-size: 2.2em;
+  }
+  .cards {
+    justify-content: center;
+    margin: 10% 0 10% 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    height: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../assets/seal2.webp") 0px 0;
+    background-size: cover;
+    padding-bottom: 10%;
+    margin-top: 3%;
+  }
+  .title h1 {
+    font-size: 5em;
+    margin: 0% 0 0 0;
+  }
+  .title h3 {
+    font-size: 2.5em;
+  }
+  .cards {
+    justify-content: center;
+    margin: 10% 0 10% 0;
+  }
+}

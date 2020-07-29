@@ -9,6 +9,7 @@ import {
   faMapMarkerAlt,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
+import api from "../useful/api";
 
 const Contact = () => {
   useEffect(() => {
@@ -120,8 +121,8 @@ const Contact = () => {
           title="hell"
           width="600"
           height="450"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAn6Q14NjTatv24O1P-bf4z9zQq4vQCW9Y
-    &q=Starida,Beaumaris,Angelsey"
+          src={`https://www.google.com/maps/embed/v1/place?key=${api}
+    &q=Starida,Beaumaris,Angelsey`}
         ></iframe>
 
         <div className="contactformcontainer" id="contact">

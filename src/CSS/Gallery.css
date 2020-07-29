@@ -122,3 +122,95 @@
   width: 500px;
   background: url("../assets/thrid.webp");
 }
+@media screen and (max-width: 666px) {
+  .gallery__grid:nth-child(1) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/boat.webp");
+  }
+  .gallery__grid:nth-child(2) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/boat2.webp");
+  }
+  .gallery__grid:nth-child(3) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/contact.webp");
+  }
+  .gallery__grid:nth-child(4) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/cruisecard.webp");
+  }
+  .gallery__grid:nth-child(5) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/fish1.webp");
+  }
+  .gallery__grid:nth-child(6) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/fish2.webp");
+  }
+  .gallery__grid:nth-child(7) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/fish3.webp");
+  }
+  .gallery__grid:nth-child(8) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/fishcard.webp");
+  }
+  .gallery__grid:nth-child(9) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/logo.webp");
+  }
+  .gallery__grid:nth-child(10) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/menai.webp");
+  }
+  .gallery__grid:nth-child(11) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/menai2.webp");
+  }
+  .gallery__grid:nth-child(12) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/phoneback.webp");
+  }
+  .gallery__grid:nth-child(13) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/reels.webp");
+  }
+  .gallery__grid:nth-child(14) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/sea.webp");
+  }
+  .gallery__grid:nth-child(15) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/seal.webp");
+  }
+  .gallery__grid:nth-child(16) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/seal2.webp");
+  }
+  .gallery__grid:nth-child(17) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/logo.webp");
+  }
+  .gallery__grid:nth-child(18) {
+    height: 300px;
+    width: 300px;
+    background: url("../assets/thrid.webp");
+  }
+}

@@ -29,3 +29,26 @@ a {
   list-style: none;
   text-decoration: none;
 }
+@media screen and (max-width: 666px) {
+  .starida {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+  .starida {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 736px) and (max-width: 991px) {
+  .starida {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
